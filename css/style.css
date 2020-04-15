@@ -1,7 +1,32 @@
-h1 {
-    color:red
-}
+/* header */
+div.wrapper-nav {
+  max-width: auto;
+  margin: 0 auto; }
 
-p {
-    color: red;
-}
+div.nav div {
+  text-align: center;
+  margin: 20px 20px; }
+
+div.nav div a {
+  color: white;
+  text-align: center; }
+
+div.nav div a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px; }
+
+div.nav div.active a {
+  color: darkseagreen; }
+
+div.nav div.active a:hover {
+  text-decoration: none;
+  border: 0px; }
+
+/* main wrapper */
+div.wrapper-main {
+  background-color: black;
+  max-width: 940px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=style.css.map */

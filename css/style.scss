@@ -1,9 +1,40 @@
-$colour: blue;
+$nav-text-colour: white;
 
-h1 {
-    color: $colour;
+/* header */
+div.wrapper-nav {
+    max-width: auto;
+    margin: 0 auto;
+    // background-color: black;
 }
 
-p {
-    color:$colour;
+div.nav div {
+    text-align: center;
+    margin: 20px 20px;
+}
+
+div.nav div a {
+    color: $nav-text-colour;
+    text-align: center;
+}
+
+div.nav div a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid $nav-text-colour;
+    padding-bottom: 5px;
+}
+
+div.nav div.active a {
+    color: darkseagreen;
+}
+
+div.nav div.active a:hover {
+    text-decoration: none;
+    border: 0px;
+}
+
+/* main wrapper */
+div.wrapper-main {
+    background-color: black;
+    max-width: 940px;
+    margin: 0 auto;
 }
