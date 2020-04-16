@@ -1,4 +1,11 @@
+/* sass */
 $nav-text-colour: white;
+
+/* body */
+body {
+    background-color: #ebe8e8;
+}
+
 
 /* header */
 div.wrapper-nav {
@@ -18,6 +25,7 @@ div.nav div a {
 }
 
 div.nav div a:hover {
+    transition: all 0.25s;
     text-decoration: none;
     border-bottom: 2px solid $nav-text-colour;
     padding-bottom: 5px;
@@ -34,7 +42,18 @@ div.nav div.active a:hover {
 
 /* main wrapper */
 div.wrapper-main {
-    background-color: black;
     max-width: 940px;
     margin: 0 auto;
+    text-align: center;
+}
+
+/* welcome */
+div.welcome {
+}
+
+/* img 0 */
+img.img0 {
+    text-align: center;
+    width: auto;
+    height: 400px;
 }
