@@ -1,7 +1,9 @@
 /* sass */
-$nav-text-colour: rgb(231, 187, 233);
-$nav-tc-active: rgb(71, 70, 160);
-$backgroud-colour: #ebe8e8;
+$nav-tc-active: rgb(0, 0, 0);
+$backgroud-colour: #ffffff;
+$nav-text-colour: $backgroud-colour;
+$primary-c: #007bff;
+
 
 /* body */
 body {
@@ -18,9 +20,14 @@ div.wrapper-nav {
 
 div.nav div {
     text-align: center;
-    margin: 20px 20px;
-    // font-size: 15px;
-    // text-
+    margin: 20px 0;
+    border-bottom: 2px solid $primary-c;
+    box-sizing: border-box;
+}
+
+div.nav div.col:hover {
+    transition: all 0.5s;
+    border-bottom: 2px solid $nav-text-colour;
 }
 
 div.nav div a {
@@ -32,7 +39,7 @@ div.nav div a {
 div.nav div a:hover {
     transition: all 0.25s;
     text-decoration: none;
-    border-bottom: 2px solid $nav-text-colour;
+    // border-bottom: 2px solid $nav-text-colour;
     padding-bottom: 5px;
 }
 

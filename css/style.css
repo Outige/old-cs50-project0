@@ -1,7 +1,7 @@
 /* sass */
 /* body */
 body {
-  background-color: #ebe8e8; }
+  background-color: #ffffff; }
 
 /* header */
 div.wrapper-nav {
@@ -10,21 +10,26 @@ div.wrapper-nav {
 
 div.nav div {
   text-align: center;
-  margin: 20px 20px; }
+  margin: 20px 0;
+  border-bottom: 2px solid #007bff;
+  box-sizing: border-box; }
+
+div.nav div.col:hover {
+  transition: all 0.5s;
+  border-bottom: 2px solid #ffffff; }
 
 div.nav div a {
-  color: #e7bbe9;
+  color: #ffffff;
   text-align: center;
   font-size: 25px; }
 
 div.nav div a:hover {
   transition: all 0.25s;
   text-decoration: none;
-  border-bottom: 2px solid #e7bbe9;
   padding-bottom: 5px; }
 
 div.nav div.active a {
-  color: #4746a0; }
+  color: black; }
 
 div.nav div.active a:hover {
   text-decoration: none;
