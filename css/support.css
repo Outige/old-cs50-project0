@@ -12,3 +12,10 @@ span.social-text {
     color: white;
     font-size: 20px;
 }
+
+/* media queries */
+@media (max-width: 650px) {
+    span {
+        display: none;
+    }
+}
