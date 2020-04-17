@@ -20,13 +20,16 @@ div.wrapper-nav {
 
 div.nav div {
     text-align: center;
-    margin: 20px 0;
+    padding: 15px 0;
+    margin: 5px 0;
     border-bottom: 2px solid $primary-c;
     box-sizing: border-box;
 }
 
+
+
 div.nav div.col:hover {
-    transition: all 0.5s;
+    transition: all 0.3s;
     border-bottom: 2px solid $nav-text-colour;
 }
 
@@ -36,11 +39,19 @@ div.nav div a {
     font-size: 25px;
 }
 
-div.nav div a:hover {
-    transition: all 0.25s;
+div.nav a.nav-item div {
+    color: $nav-text-colour;
+    text-align: center;
+    font-size: 25px;
+}
+
+div.nav a.nav-item:hover {
     text-decoration: none;
-    // border-bottom: 2px solid $nav-text-colour;
-    padding-bottom: 5px;
+}
+
+div.nav div a:hover {
+    // transition: all 0.25s;
+    text-decoration: none;
 }
 
 div.nav div.active a {
@@ -77,9 +88,3 @@ img.img0 {
         font-size: 16px;
     }
 }
-
-// /* img */
-// div.img-nav img {
-//     height: 100px;
-//     width: 200px;
-// }
