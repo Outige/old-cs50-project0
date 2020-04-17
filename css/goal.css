@@ -1,0 +1,25 @@
+#list0 {
+    margin: 80px auto;
+}
+
+#goals {
+    background: white;
+    color: #007bff;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+ul {
+    text-align: left;
+    list-style: none;
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 12px;
+    font-size: 25px;
+}
