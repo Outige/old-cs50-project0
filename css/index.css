@@ -1,0 +1,17 @@
+/* welcome */
+div.welcome {
+}
+
+/* img 0 */
+img.img0 {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+/* media queries */
+@media (max-width: 500px) {
+    div.welcome {
+        display: none;
+    }
+}

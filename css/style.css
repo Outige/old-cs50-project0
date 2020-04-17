@@ -10,13 +10,12 @@ div.wrapper-nav {
 
 div.nav div {
   text-align: center;
-  padding: 15px 0;
-  margin: 5px 0;
-  border-bottom: 2px solid #007bff;
-  box-sizing: border-box; }
+  padding: 10px 0;
+  margin: 10px 0;
+  border-bottom: 2px solid #007bff; }
 
 div.nav div.col:hover {
-  transition: all 0.3s;
+  transition: all 0.5s;
   border-bottom: 2px solid #ffffff; }
 
 div.nav div a {
@@ -47,17 +46,5 @@ div.wrapper-main {
   max-width: 940px;
   margin: 0 auto;
   text-align: center; }
-
-/* welcome */
-/* img 0 */
-img.img0 {
-  text-align: center;
-  width: auto;
-  height: 400px; }
-
-/* media queries */
-@media (max-width: 768px) {
-  div.hidden-768 div a {
-    font-size: 16px; } }
 
 /*# sourceMappingURL=style.css.map */
